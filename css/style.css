@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.headerName {
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 40px;
+    text-decoration: none;
+    text-underline-offset: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    height: none;
+    flex-grow: 5;
+    color: black;
+    background-color:  rgb(210, 219, 221);
+}
+
+.divContainer {
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    flex-direction: row;
+    flex-grow: 6;
+    display: flex;
+    min-height: 80px;
+    color: black;
+    justify-content: center;
+}
+
+.menu {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+main {
+    background-image: url();
+    height: 660px;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+    
+.card {
+    box-shadow: 0 15px 15px 0 rgba(7, 7, 7, 0.2);
+    max-width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-left: 300px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    flex-direction: column-reverse;
+}
+
+.card1{
+    box-shadow: 0 15px 15px 0 rgba(7, 7, 7, 0.2);
+    max-width: 400px;
+    height: 500px;
+    margin-left: 1200px;
+    margin-top: -510px;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    flex-direction: column-reverse;
+}
+
+img{
+    margin-top: 10px;
+    height: 200px;
+    width: 150px;
+}
+
+h1{
+    color: rgb(73, 65, 61);
+    margin-left: 200px;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+
+#footer {
+	background-color:  rgb(210, 219, 221);
+	color: rgb(7, 7, 7);
+}
+
+	#footer a {
+		color: rgb(7, 90, 245);
+	}
+
+.social{
+    margin-left: 1700px;
+    
+}    
+
+
+
+
+/* dropmenu */
+
+.dropbtn {
+    font-family: 'Special Elite', cursive;
+    background-color: #9bb4b003;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    margin-top: 13px; 
+    text-decoration: underline;
+  }
+
+  .dropbtn:hover {
+    background-color: #95bdb603;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+
+/* BloggInlägg */ 
+
+.allBlogImg {
+    width: 30%;
+    border-radius: 25px;
+}
+
+.lushDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.lushText {
+    font-size: 20px;
+}
+
+.readMore {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white; 
+    color: black; 
+    border-radius: 15px;
+    
+}
+
+.readMore:hover {
+    background-color: #9bb4b003;
+}
+
+.lushContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 25px;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    box-shadow: 5px 10px #888888;
+    
+}
+
+.lushImg {
+    width: 70%;
+    border-radius: 25px;
+}
+
+.horseImg {
+    width: 70%;
+    border-radius: 25px;
+}
+
+.textBox {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    flex-direction: column;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.checked {
+    color: rgb(125, 170, 196);
+}
+
+.ratingBox {
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    gap: 10px; 
+    padding: 15px;
+}
